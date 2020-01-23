@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+body {
+  /* background-image: url(./assets/newDogCatImg.jpg); */
+  /* opacity: 0.5; */
+  background-color: #bbff9e
+ }
+
+ h2 {
+  Color:#ffb79d;
+}
+
+p {
+  color: #ffb79d;
+  font-weight: bold;
+  font-size: 20px;;
+}
+
+a {
+  /* color:#ff9eb9 */
+  color: #9eddff;
+  font-weight: bold;
+  font-size: 20px;;
+}
+
+.title {
+  color: #9eddff;
+  font-weight: bold;
+  font-size: 20px;
+}

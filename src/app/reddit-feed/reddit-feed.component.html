@@ -1,0 +1,23 @@
+<h2>Posts From awwReddit</h2>
+
+<!-- <button (click)="search()">Search</button><br> -->
+<!-- <label>Title:</label>
+<p>{{redditData.data.children[0].data.title}}</p><br>
+<label>Img:</label><br>
+<br>
+<img src="{{redditData.data.children[0].data.thumbnail}}">
+<br>
+<br>
+<label>Link:</label>
+<br>
+<a href="{{redditData.data.children[0].data.permalink}}">{{redditData.data.children[0].data.permalink}}</a> -->
+
+<div *ngFor="let post of redditData.data.children">
+  
+  <p> <label class="title">Title:</label> {{post.data.title}}</p>
+  <img src="{{post.data.thumbnail}}"><br>
+  <!-- <a href="{{post.data.permalink}}">Post-Link</a> -->
+  <a href="{{post.data.url}}">Post-Link</a>
+  <br>
+  <br>
+</div>
